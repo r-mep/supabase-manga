@@ -2,7 +2,7 @@ import { createClient } from "@supabase/supabase-js";
 
 // 環境関数のロード
 const SUPABASE_URL = process.env.NEXT_PUBLIC_SUPABASE_URL;
-const SUPABASE_KEY = process.env.NEXT_PUBLIC_KEY;
+const SUPABASE_KEY = process.env.NEXT_PUBLIC_SUPABASE_KEY;
 
 // 環境変数が設定されていなかったらエラーを投げる
 if (!SUPABASE_URL) {
