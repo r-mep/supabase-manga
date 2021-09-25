@@ -28,7 +28,6 @@ const Container = (props: Props) => {
   // DBから取得した漫画タイトルをセット
   const getTitleList = useCallback(async () => {
     const data = await getTitles();
-    console.log({ data })
     setTitles(data);
   }, []);
 
