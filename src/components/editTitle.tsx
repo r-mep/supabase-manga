@@ -164,7 +164,6 @@ export const EditTitle = (props: Props) => {
                   <div className="w-32 p-2">
                     <Button
                       block
-                      type="default"
                       size="large"
                       icon={<IconSave />}
                       onClick={handleSave}
